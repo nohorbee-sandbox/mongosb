@@ -41,6 +41,7 @@ public class FindData {
             count[0]++;
         });
         System.out.println("Record Count" + db.getCollection("restaurants").count(criteria));
+        System.out.println("Total Records: " + db.getCollection("restaurants").count());
     }
 
 }
