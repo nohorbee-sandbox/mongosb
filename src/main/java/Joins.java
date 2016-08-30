@@ -7,8 +7,7 @@ import com.mongodb.client.model.BsonField;
 
 import org.bson.Document;
 
-import static com.mongodb.client.model.Projections.include;
-import static com.mongodb.client.model.Projections.exclude;
+
 import static com.mongodb.client.model.Projections.fields;
 import static java.util.Arrays.asList;
 
